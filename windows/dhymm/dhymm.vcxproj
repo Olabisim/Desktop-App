@@ -5,7 +5,7 @@
     <CppWinRTOptimized>true</CppWinRTOptimized>
     <CppWinRTRootNamespaceAutoMerge>true</CppWinRTRootNamespaceAutoMerge>
     <MinimalCoreWin>true</MinimalCoreWin>
-    <ProjectGuid>{fd7b596c-4e5b-4be3-b99c-374995571f12}</ProjectGuid>
+    <ProjectGuid>{cb239558-a075-47be-8b1d-bfa148ba6563}</ProjectGuid>
     <ProjectName>dhymm</ProjectName>
     <RootNamespace>dhymm</RootNamespace>
     <DefaultLanguage>en-US</DefaultLanguage>
@@ -16,7 +16,7 @@
     <WindowsTargetPlatformVersion Condition=" '$(WindowsTargetPlatformVersion)' == '' ">10.0.18362.0</WindowsTargetPlatformVersion>
     <WindowsTargetPlatformMinVersion>10.0.16299.0</WindowsTargetPlatformMinVersion>
     <PackageCertificateKeyFile>dhymm_TemporaryKey.pfx</PackageCertificateKeyFile>
-    <PackageCertificateThumbprint>8723DA746FE531DA55D7AB49774BF9267279454D</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>F319CEB00CF2691B568C2E88FEB31FE8A90F1BCB</PackageCertificateThumbprint>
     <PackageCertificatePassword>password</PackageCertificatePassword>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />

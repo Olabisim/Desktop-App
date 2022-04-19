@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="18b14ef8-f95e-47d5-a591-5f5fadacf817"
+    Name="deaf13bd-84ec-442b-8f3b-3826fbf2753b"
     Publisher="CN=HP"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="18b14ef8-f95e-47d5-a591-5f5fadacf817" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="deaf13bd-84ec-442b-8f3b-3826fbf2753b" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>dhymm</DisplayName>
