@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text as T, View as V } from 'react-native'
+import { Text as T, View as V, StyleSheet as SS } from 'react-native';
 
 const Home = () => {
         return (
@@ -12,5 +12,12 @@ const Home = () => {
                 </V>
         )
 }
+
+const styles = SS.create({
+
+})
+
+
+
 
 export default Home;
