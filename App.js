@@ -54,11 +54,7 @@ const App: () => React$Node = () => {
                         <View style={[styles.sectionContainer, {flex: 3}]}>
                         
                                 <Home />
-                                <Text style={styles.sectionTitle}>POSSIBLE PC FAULTS AND SOLUTIONS</Text>
-                                <Text style={styles.sectionTitle}>FAULTS AND SOLUTIONS</Text>
-                                <Text style={styles.sectionDescription}>
-                                        Edit <Text style={styles.highlight}>App.js</Text> to change thiss screen and then come back to see your editsgg
-                                </Text>
+                               
                         </View>
 
                 </View>
