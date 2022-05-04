@@ -32,7 +32,8 @@ const App: () => React$Node = () => {
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
-          style={styles.scrollView}>
+          style={styles.scrollView}
+        >
           
           {global.HermesInternal == null ? null : (
             <View style={styles.engine}>
@@ -40,18 +41,28 @@ const App: () => React$Node = () => {
             </View>
           )}
 
-          <View style={styles.body}>
+                <View style={styles.body}>
 
-            <View style={styles.sectionContainer}>
-            
-            <Home />
-              <Text style={styles.sectionTitle}>POSSIBLE PC FAULTS AND SOLUTIONS</Text>
-              <Text style={styles.sectionDescription}>
-                Edit <Text style={styles.highlight}>App.js</Text> to change thiss screen and then come back to see your editsgg
-              </Text>
-            </View>
+                        <View style={[styles.sectionHeading, {flex: 2}]}>
+                        
+                                <Text style={styles.sectionTitle}>POSSIBLE PC</Text>
+                                <Text style={styles.sectionTitle}>FAULTS AND SOLUTIONS</Text>
 
-          </View>
+                                <Text style={styles.sectionButton}>DISCLAIMER</Text>
+                        </View>
+
+                        <View style={[styles.sectionContainer, {flex: 3}]}>
+                        
+                                <Home />
+                                <Text style={styles.sectionTitle}>POSSIBLE PC FAULTS AND SOLUTIONS</Text>
+                                <Text style={styles.sectionTitle}>FAULTS AND SOLUTIONS</Text>
+                                <Text style={styles.sectionDescription}>
+                                        Edit <Text style={styles.highlight}>App.js</Text> to change thiss screen and then come back to see your editsgg
+                                </Text>
+                        </View>
+
+                </View>
+          
         </ScrollView>
       </SafeAreaView>
     </>
@@ -68,15 +79,29 @@ const styles = StyleSheet.create({
   },
   body: {
     backgroundColor: Colors.white,
+    flex: 1,
+    height: 700,
+  },
+  sectionHeading: {
+    justifyContent: "center",
+    alignItems: "center",
   },
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
   },
   sectionTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    color: Colors.black,
+        fontSize: 28,
+        fontWeight: '900',
+        color: "blue",
+        letterSpacing: 3,
+  },
+  sectionButton: {
+        backgroundColor: '#0000FF',
+        fontSize: 28,
+        fontWeight: '300',
+        color: '#0000FF',
+        marginTop: 10,
   },
   sectionDescription: {
     marginTop: 8,
